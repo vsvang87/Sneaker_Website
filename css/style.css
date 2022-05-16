@@ -1,0 +1,104 @@
+:root {
+    --first-color: #393e46;
+    --second-color: #47555e;
+    --third-color: #b7b7b7;
+    --fourth-color: whitesmoke;
+    --fifth-color: #d63447;
+
+    --fs-h1: 36px;
+    --fs-h3: 20px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    
+}
+/* Layout */
+header {
+    padding: 45px 0;
+    background: var(--fifth-color);
+}
+.container {
+    margin: 0 auto;
+    width: 620px;
+}
+section {
+    padding: 45px 0;
+}
+.inner-content {
+    background: var(--second-color);
+}
+.inner-content p {
+    color: var(--third-color);
+}
+.img-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Image */
+.main-image {
+    width: 100%;
+    margin-top: 20px;
+}
+.shoes {
+    width: 300px;
+    height: 50%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.jordan-cement-3{
+    height: 237px;
+}
+/* Typography */
+h1, h3, h2 {
+    margin: 0;
+}
+h1 {
+    color: var(--fourth-color);
+    font-size: var(--fs-h1);
+    
+}
+h3 {
+   
+    color: var(--first-color);
+    font-size: var(--fs-h3);
+}
+p {
+    line-height: 23px;
+}
+.sneaker-news {
+    color: var(--third-color);
+}
+/* Links */
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: var(--fifth-color);
+    
+}
+a:active {
+    color: darkgray;
+    font-weight: bold;
+}
+
+.paragraph-bold {
+    font-size: var(--fs-h3);
+    font-weight: bold;
+}
+/* Footer */
+footer {
+    background: var(--first-color);
+    padding: 20px 0;
+}
+.footer-content {
+    text-align: center;
+    color: var(--third-color);
+    font-size: 16px;
+}

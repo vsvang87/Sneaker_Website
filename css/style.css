@@ -71,17 +71,32 @@ h3 {
 p {
     line-height: 23px;
 }
-.sneaker-news {
-    color: var(--third-color);
+.bottom-sect-title {
+    color: var(--fifth-color);
 }
+.sneaker-news {
+    color: var(--fifth-color);
+}
+/* Buttons */
+.button {
+    display: inline-block;
+    background: var(--fifth-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: .2s ease-in-out;
+   
+}
+
 /* Links */
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 a:hover {
     color: var(--fifth-color);
-    
+    background: var(--third-color);
 }
 a:active {
     color: darkgray;
